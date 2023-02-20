@@ -1,2 +1,1 @@
 depends on azurerm_active_directory_domain_service;
-depends on azurerm;
