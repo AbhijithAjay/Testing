@@ -11,12 +11,6 @@ resource "azurerm_active_directory_domain_service" "example" {
     subnet_id = var.subnet_id
   }
 
-  notifications {
-    additional_recipients = [var.additional_recipients]
-    notify_dc_admins      = var.notify_dc_admins
-    notify_global_admins  = var.notify_global_admins
-  }
-
   security {
     sync_kerberos_passwords = var.sync_kerberos_passwords
     sync_ntlm_passwords     = var.sync_ntlm_passwords

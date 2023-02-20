@@ -1,13 +1,2 @@
 depends on azurerm_resource_group;
 depends on azurerm;
-depends on azurerm_virtual_network;
-depends on azurerm_subnet;
-depends on azurerm_network_security_group;
-depends on azurerm_subnet_network_security_group_association;
-depends on azuread_group;
-depends on azuread_user;
-depends on azuread_group_member;
-depends on azuread_service_principal;
-depends on azurerm_active_directory_domain_service;
-depends on azurerm_virtual_network_peering;
-depends on azurerm_virtual_network_dns_servers;

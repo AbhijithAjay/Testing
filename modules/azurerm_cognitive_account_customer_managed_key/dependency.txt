@@ -1,0 +1,1 @@
+depends on azurerm_client_config;

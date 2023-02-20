@@ -11,6 +11,3 @@ variable "notify_global_admins" {default = "true"}
 variable "sync_kerberos_passwords" {default = "true"}
 variable "sync_ntlm_passwords" {default = "true"}
 variable "sync_on_prem_passwords" {default = "true"}
-variable "Environment" {default = "prod"}
-variable "depends_on" {default = [azuread_service_principal.example,
-    azurerm_subnet_network_security_group_association.deploy,]}
