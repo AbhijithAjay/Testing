@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_notification_hub_namespace;
-depends on azurerm_notification_hub;

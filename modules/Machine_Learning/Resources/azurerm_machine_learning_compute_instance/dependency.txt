@@ -1,7 +1,0 @@
-depends on azurerm_client_config;
-depends on azurerm_application_insights;
-depends on azurerm_key_vault;
-depends on azurerm_storage_account;
-depends on azurerm_machine_learning_workspace;
-depends on azurerm_virtual_network;
-depends on azurerm_subnet;

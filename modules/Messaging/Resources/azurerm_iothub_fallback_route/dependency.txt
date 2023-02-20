@@ -1,5 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_storage_account;
-depends on azurerm_storage_container;
-depends on azurerm_iothub;
-depends on azurerm_iothub_endpoint_storage_container;

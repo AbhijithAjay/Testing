@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_client_config;
-depends on azurerm_log_analytics_cluster;
-depends on azurerm_key_vault;
-depends on azurerm_key_vault_key;
-depends on azurerm_log_analytics_cluster_customer_managed_key;

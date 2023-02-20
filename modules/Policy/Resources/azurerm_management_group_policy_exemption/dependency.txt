@@ -1,3 +1,0 @@
-depends on azurerm_management_group;
-depends on azurerm_policy_set_definition;
-depends on azurerm_management_group_policy_assignment;

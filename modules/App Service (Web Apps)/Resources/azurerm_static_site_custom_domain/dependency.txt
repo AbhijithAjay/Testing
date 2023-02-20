@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_dns_cname_record;
-depends on azurerm_static_site;

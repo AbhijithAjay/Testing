@@ -1,9 +1,0 @@
-variable "name" {default = "euclid_azurerm_container_registry_webhook"}
-variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
-variable "registry_name" {default = "azurerm_container_registry.acr.name"}
-variable "location" {default = "azurerm_resource_group.example.location"}
-variable "service_uri" {default = "https://mywebhookreceiver.example/mytag"}
-variable "status" {default = "enabled"}
-variable "scope" {default = "mytag:*"}
-variable "actions" {default = "push"}
-variable "custom_headers" {default = "application/json"}

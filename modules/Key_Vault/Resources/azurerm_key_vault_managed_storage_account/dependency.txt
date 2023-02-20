@@ -1,4 +1,0 @@
-depends on azurerm_client_config;
-depends on azurerm_storage_account;
-depends on azurerm_key_vault;
-depends on azurerm_key_vault_managed_storage_account;

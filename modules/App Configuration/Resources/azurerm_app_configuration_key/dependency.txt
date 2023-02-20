@@ -1,5 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_app_configuration;
-depends on azurerm_key_vault;
-depends on azurerm_key_vault_secret;
-depends on azurerm_role_assignment;

@@ -1,6 +1,0 @@
-depends on random_uuid;
-depends on azurerm_resource_group;
-depends on azurerm_role_definition;
-depends on azuread_service_principal;
-depends on azurerm_virtual_desktop_host_pool;
-depends on azurerm_virtual_desktop_scaling_plan;

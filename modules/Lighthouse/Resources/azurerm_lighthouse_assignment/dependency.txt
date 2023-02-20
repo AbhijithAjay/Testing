@@ -1,2 +1,0 @@
-depends on azurerm_subscription;
-depends on azurerm_lighthouse_assignment;

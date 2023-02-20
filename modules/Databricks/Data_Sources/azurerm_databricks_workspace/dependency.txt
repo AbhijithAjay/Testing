@@ -1,2 +1,0 @@
-depends on azurerm_databricks_workspace
-depends on databricks_workspace_id

@@ -1,2 +1,0 @@
-depends on azurerm_resource_group;
-depends onazurerm_storage_account;

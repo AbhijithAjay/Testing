@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_sql_server;
-depends on azurerm_sql_database;

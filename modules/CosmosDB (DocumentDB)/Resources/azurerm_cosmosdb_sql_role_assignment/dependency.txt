@@ -1,3 +1,0 @@
-depends on azurerm_client_config;
-depends on azurerm_cosmosdb_account;
-depends on azurerm_cosmosdb_sql_role_definition;

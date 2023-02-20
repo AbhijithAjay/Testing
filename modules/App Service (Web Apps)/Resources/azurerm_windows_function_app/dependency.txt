@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_service_plan;
-depends on azurerm_storage_account;
-depends on azurerm;

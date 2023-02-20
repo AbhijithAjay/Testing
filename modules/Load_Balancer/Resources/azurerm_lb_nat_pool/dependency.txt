@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_public_ip;
-depends on azurerm_lb;
-depends on azurerm_lb_nat_pool;

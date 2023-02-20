@@ -1,9 +1,0 @@
-variable "name" {default = "euclid_azurerm_cosmosdb_mongo_collection"}
-variable "resource_group_name" {default = "data.azurerm_cosmosdb_account.example.resource_group_name"}
-variable "account_name" {default = "data.azurerm_cosmosdb_account.example.name"}
-variable "database_name" {default = "azurerm_cosmosdb_mongo_database.example.name"}
-variable "default_ttl_seconds" {default = "777"}
-variable "shard_key" {default = "uniqueKey"}
-variable "throughput" {default = "400"}
-variable "index_keys" {default = "_id"}
-variable "index_unique" {default = true}

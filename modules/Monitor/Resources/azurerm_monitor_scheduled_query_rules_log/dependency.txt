@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_log_analytics_workspace;
-depends on azurerm_monitor_action_group;
-depends on azurerm_monitor_metric_alert;

@@ -1,9 +1,0 @@
-variable "name" {default = "euclid_azurerm_mssql_database"}
-variable "server_id" {default = "azurerm_mssql_server.example.id"}
-variable "collation" {default = "SQL_Latin1_General_CP1_CI_AS"}
-variable "license_type" {default = "LicenseIncluded"}
-variable "max_size_gb" {default = "4"}
-variable "read_scale" {default = true}
-variable "sku_name" {default = "S0"}
-variable "zone_redundant" {default = true}
-variable "tags" {default = "bar"}

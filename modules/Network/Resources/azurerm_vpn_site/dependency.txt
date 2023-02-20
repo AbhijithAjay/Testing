@@ -1,3 +1,0 @@
-depends on azurerm;
-depends on azurerm_resource_group;
-depends on azurerm_virtual_wan;

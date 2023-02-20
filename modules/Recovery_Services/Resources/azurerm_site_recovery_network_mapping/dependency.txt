@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_recovery_services_vault;
-depends on azurerm_site_recovery_fabric;
-depends on azurerm_virtual_network;

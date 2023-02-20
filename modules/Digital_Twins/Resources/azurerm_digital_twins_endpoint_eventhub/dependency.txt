@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_digital_twins_instance;
-depends on azurerm_eventhub_namespace;
-depends on azurerm_eventhub;
-depends on azurerm_eventhub_authorization_rule;
-depends on azurerm_digital_twins_endpoint_eventhub;

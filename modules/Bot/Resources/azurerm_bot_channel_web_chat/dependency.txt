@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_client_config;
-depends on azurerm_bot_channels_registration;

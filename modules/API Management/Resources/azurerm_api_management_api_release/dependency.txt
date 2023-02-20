@@ -1,4 +1,0 @@
-depends on azurerm;
-depends on azurerm_resource_group;
-depends on azurerm_api_management;
-depends on azurerm_api_management_api;

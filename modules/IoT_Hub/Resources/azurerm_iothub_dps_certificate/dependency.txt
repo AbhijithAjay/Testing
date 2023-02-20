@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_iothub_dps;
-depends on azurerm_iothub_dps_certificate;

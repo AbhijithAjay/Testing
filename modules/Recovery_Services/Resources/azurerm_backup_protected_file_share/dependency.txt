@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_recovery_services_vault;
-depends on azurerm_storage_account;
-depends on azurerm_storage_share;
-depends on azurerm_backup_container_storage_account;
-depends on azurerm_backup_policy_file_share;

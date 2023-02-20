@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_mssql_server;
-depends on azurerm_mssql_database;
-depends on azurerm_mssql_job_agent;

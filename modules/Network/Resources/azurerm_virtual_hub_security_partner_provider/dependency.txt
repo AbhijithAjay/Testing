@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_virtual_wan;
-depends on azurerm_virtual_hub;
-depends on azurerm_vpn_gateway;

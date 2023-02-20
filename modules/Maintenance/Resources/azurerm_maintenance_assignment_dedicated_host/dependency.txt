@@ -1,5 +1,0 @@
-depends on azurerm;
-depends on azurerm_resource_group;
-depends on azurerm_dedicated_host_group;
-depends on azurerm_dedicated_host;
-depends on azurerm_maintenance_configuration;

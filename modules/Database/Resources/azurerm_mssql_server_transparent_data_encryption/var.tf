@@ -1,1 +1,0 @@
-variable "server_id" {default = "azurerm_mssql_server.example.id"}

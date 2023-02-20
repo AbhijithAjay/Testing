@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_virtual_network;
-depends on azurerm_subne;
-depends on azurerm_local_network_gateway;
-depends on azurerm_public_ip;
-depends on azurerm_virtual_network_gateway;

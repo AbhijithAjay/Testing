@@ -1,7 +1,0 @@
-depends on azurerm;
-depends on azurerm_resource_group;
-depends on azurerm_data_share_account;
-depends on azurerm_data_share;
-depends on azurerm_kusto_cluster;
-depends on azurerm_kusto_database;
-depends on azurerm_role_assignment;

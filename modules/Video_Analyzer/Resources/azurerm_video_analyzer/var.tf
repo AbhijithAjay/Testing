@@ -1,9 +1,0 @@
-variable "name" {default = "euclid_azurerm_video_analyzer"}
-variable "location" {default = "azurerm_resource_group.example.location"}
-variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
-variable "storage_account_id" {default = " azurerm_storage_account.example.id"}
-variable "storage_account_user_assigned_identity_id" {default = "tfex-azurerm_user_assigned_identity.example.id"}
-variable "identity_type" {default = "UserAssigned"}
-variable "identity_identity_ids" {default = [azurerm_user_assigned_identity.example.id]}
-variable "tags_environment" {default = "staging"}
-variable "depends_on" {default = [azurerm_role_assignment.contributor,azurerm_role_assignment.reader,]}
