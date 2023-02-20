@@ -11,3 +11,4 @@ variable "notify_global_admins" {default = "true"}
 variable "sync_kerberos_passwords" {default = "true"}
 variable "sync_ntlm_passwords" {default = "true"}
 variable "sync_on_prem_passwords" {default = "true"}
+Abhijith

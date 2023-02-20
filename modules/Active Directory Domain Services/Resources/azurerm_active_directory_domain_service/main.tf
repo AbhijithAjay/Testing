@@ -11,12 +11,6 @@ resource "azurerm_active_directory_domain_service" "example" {
     subnet_id = var.subnet_id
   }
 
-  security {
-    sync_kerberos_passwords = var.sync_kerberos_passwords
-    sync_ntlm_passwords     = var.sync_ntlm_passwords
-    sync_on_prem_passwords  = var.sync_on_prem_passwords
-  }
-
   tags = {
     Environment = var.Environment
   }
