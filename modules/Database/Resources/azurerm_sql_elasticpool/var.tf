@@ -1,0 +1,9 @@
+variable "name" {default = "euclid_azurerm_sql_elasticpool"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "server_name" {default = "azurerm_sql_server.example.name"}
+variable "edition" {default = "Basic"}
+variable "dtu" {default = "50"}
+variable "db_dtu_min" {default = "0"}
+variable "db_dtu_max" {default = "5"}
+variable "pool_size" {default = "5000"}

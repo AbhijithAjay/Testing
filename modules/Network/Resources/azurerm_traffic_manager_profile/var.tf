@@ -1,0 +1,12 @@
+variable "name" {default = "euclid_azurerm_traffic_manager_profile"}
+variable "traffic_routing_method" {default = "Weighted"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "dns_config_relative_name" {default = "random_id.server.hex"}
+variable "dns_config_ttl" {default = "100"}
+variable "monitor_config_protocol" {default = "HTTP"}
+variable "monitor_config_port" {default = "80"}
+variable "monitor_config_path" {default = "/"}
+variable "monitor_config_interval_in_seconds" {default = "30"}
+variable "monitor_config_timeout_in_seconds" {default = "9"}
+variable "monitor_config_tolerated_number_of_failures" {default = "3"}
+variable "tags_environment" {default = "Production"}

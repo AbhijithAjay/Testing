@@ -1,0 +1,16 @@
+variable "name" {default = "euclid_azurerm_virtual_network_gateway"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "type" {default = "Vpn"}
+variable "vpn_type" {default = "RouteBased"}
+variable "active_active" {default = "false"}
+variable "enable_bgp" {default = "false"}
+variable "sku" {default = "Basic"}
+variable "ip_configuration_name" {default = "vnetGatewayConfig"}
+variable "ip_configuration_public_ip_address_id" {default = "azurerm_public_ip.example.id"}
+variable "ip_configuration_private_ip_address_allocation" {default = "Dynamic"}
+variable "ip_configuration_subnet_id" {default = "azurerm_subnet.example.id"}
+variable "vpn_client_configuration_address_space" {default = ["10.2.0.0/24"]}
+variable "root_certificate_name" {default = "DigiCert-Federated-ID-Root-CA"}
+variable "revoked_certificate_name" {default = "Verizon-Global-Root-CA"}
+variable "revoked_certificate_thumbprint" {default = "912198EEF23DCAC40939312FEE97DD560BAE49B1"}

@@ -1,0 +1,5 @@
+depends on md_content;
+depends on video_link;
+depends on azurerm_subscription;
+depends on azurerm_resource_group;
+depends on azurerm_portal_dashboard;

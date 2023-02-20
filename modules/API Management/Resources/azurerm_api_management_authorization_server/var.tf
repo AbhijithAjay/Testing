@@ -1,0 +1,9 @@
+variable "name" {default ="euclid_azurerm_api_management_authorization_server"}
+variable "api_management_name" {default="data.azurerm_api_management.example.name"}
+variable "resource_group_name" {default ="data.azurerm_api_management.example.resource_group_name"}
+variable "display_name" {default="Test Server"}
+variable "authorization_endpoint" {default= "https://example.mydomain.com/client/authorize"}
+variable "client_id" {default = "42424242-4242-4242-4242-424242424242"}
+variable "client_registration_endpoint" {default = "https://example.mydomain.com/client/register"}
+variable "grant_types" {default = ["authorizationCode", ]}
+variable "authorization_methods" {default = [ "GET", ]}

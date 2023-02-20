@@ -1,0 +1,7 @@
+depends on azurerm_resource_group;
+depends on azurerm_kusto_cluster;
+depends on azurerm_kusto_database;
+depends on azurerm_storage_account;
+depends on azurerm_storage_container;
+depends on azurerm_storage_blob;
+depends on azurerm_storage_account_blob_container_sas;

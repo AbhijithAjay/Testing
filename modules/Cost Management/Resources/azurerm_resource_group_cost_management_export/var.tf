@@ -1,0 +1,9 @@
+variable "name" {default = "euclid_azurerm_resource_group_cost_management_export"}
+variable "resource_group_id" {default = "azurerm_resource_group.example.id"}
+variable "recurrence_type" {default = "Monthly"}
+variable "recurrence_period_start_date" {default = "2020-08-18T00:00:00Z"}
+variable "recurrence_period_end_date" {default = "2020-09-18T00:00:00Z"}
+variable "export_data_storage_location_container_id" {default = "azurerm_storage_container.example.resource_manager_id"}
+variable "export_data_storage_location_root_folder_path" {default = "/root/updated"}
+variable "export_data_options_type" {default = "Usage"}
+variable "export_data_options_time_frame" {default = "WeekToDate"}

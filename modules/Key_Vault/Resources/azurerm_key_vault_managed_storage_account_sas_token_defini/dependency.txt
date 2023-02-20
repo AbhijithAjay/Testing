@@ -1,0 +1,8 @@
+depends on azurerm_client_config;
+depends on azurerm_resource_group;
+depends on azurerm_storage_account;
+depends on azurerm_storage_account_sas;
+depends on azurerm_key_vault;
+depends on azurerm_key_vault_managed_storage_account;
+depends on azurerm_key_vault_managed_storage_account_sas_token_definition;
+

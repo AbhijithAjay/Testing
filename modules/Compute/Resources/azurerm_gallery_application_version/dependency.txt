@@ -1,0 +1,6 @@
+depends on azurerm_resource_group;
+depends on azurerm_shared_image_gallery;
+depends on azurerm_gallery_application;
+depends on azurerm_storage_account;
+depends on azurerm_storage_container
+depends on azurerm_storage_blob;

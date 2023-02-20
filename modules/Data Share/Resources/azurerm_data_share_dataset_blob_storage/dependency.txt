@@ -1,0 +1,8 @@
+depends on azurerm;
+depends on azurerm_resource_group;
+depends on azurerm_data_share_account;
+depends on azurerm_data_share;
+depends on azurerm_storage_account;
+depends on azurerm_storage_container;
+depends on azuread_service_principal;
+depends on azurerm_role_assignment;

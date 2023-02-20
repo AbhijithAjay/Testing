@@ -1,0 +1,7 @@
+depends on azurerm_resource_group;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_public_ip;
+depends on azurerm_lb;
+depends on azurerm_lb_backend_address_pool;
+depends on azurerm_network_interface;

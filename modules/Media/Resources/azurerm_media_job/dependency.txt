@@ -1,0 +1,6 @@
+depends on azurerm_media_asset;
+depends on azurerm_media_asset;
+depends on azurerm_media_transform;
+depends on azurerm_media_services_account;
+depends on azurerm_storage_account;
+depends on azurerm_resource_group;

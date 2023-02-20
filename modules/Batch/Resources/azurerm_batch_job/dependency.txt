@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm;
+depends on azurerm_batch_account;
+depends on azurerm_batch_pool;

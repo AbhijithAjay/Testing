@@ -1,0 +1,5 @@
+depends on azurerm_resource_group;
+depends on azurerm_servicebus_namespace;
+depends on azurerm_servicebus_topic;
+depends on azurerm_servicebus_topic_authorization_rule;
+depends on azurerm_iothub;

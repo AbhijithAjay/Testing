@@ -1,0 +1,2 @@
+depends on azurerm_cosmosdb_account;
+depends on azurerm_cosmosdb_gremlin_database;

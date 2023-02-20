@@ -1,0 +1,2 @@
+depends on azurerm_image;
+depends on azurerm_shared_image;

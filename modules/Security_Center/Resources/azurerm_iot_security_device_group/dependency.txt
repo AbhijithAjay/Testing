@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_iothub;
+depends on azurerm_iot_security_solution;
+

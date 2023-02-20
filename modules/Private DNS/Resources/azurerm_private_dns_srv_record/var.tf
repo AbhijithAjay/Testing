@@ -1,0 +1,13 @@
+variable "name" {default = "euclid_azurerm_private_dns_srv_record"}
+variable "zone_name" {default = "azurerm_private_dns_zone.example.name"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "ttl" {default = "300"}
+variable "record1_priority" {default = "1"}
+variable "record1_weight" {default = "5"}
+variable "record1_port" {default = "8080"}
+variable "record1_target" {default = "target1.contoso.com"}
+variable "record2_priority " {default = " 10"}
+variable "record2_weight" {default = "10"}
+variable "record2_port" {default = "8080"}
+variable "record2_target" {default = "target2.contoso.com"}
+variable "Environment" {default = "Production"}

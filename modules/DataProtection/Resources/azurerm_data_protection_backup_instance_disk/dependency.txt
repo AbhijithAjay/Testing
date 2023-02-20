@@ -1,0 +1,5 @@
+depends on azurerm_resource_group;
+depends on azurerm_managed_disk;
+depends on azurerm_data_protection_backup_vault;
+depends on azurerm_role_assignment;
+depends on azurerm_data_protection_backup_policy_disk;

@@ -1,0 +1,5 @@
+depends on azurerm_resource_group;
+depends on azurerm;
+depends on azurerm_client_config;
+depends on azurerm_client_config;
+depends on azurerm_automation_certificate;

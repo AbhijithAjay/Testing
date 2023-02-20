@@ -1,0 +1,2 @@
+depends on azurerm_api_management_api;
+depends on azurerm_api_management_api_operation;

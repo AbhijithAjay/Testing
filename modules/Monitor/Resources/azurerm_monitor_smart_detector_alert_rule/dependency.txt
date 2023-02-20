@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_application_insights;
+depends on azurerm_monitor_action_group;

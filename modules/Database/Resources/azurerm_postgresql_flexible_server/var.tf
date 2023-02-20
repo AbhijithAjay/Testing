@@ -1,0 +1,12 @@
+variable "name" {default = "euclid_azurerm_postgresql_flexible_server"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "version" {default = "12"}
+variable "delegated_subnet_id" {default = "azurerm_subnet.example.id"}
+variable "private_dns_zone_id" {default = "azurerm_private_dns_zone.example.id"}
+variable "administrator_login" {default = "psqladmin"}
+variable "administrator_password" {default = "H@Sh1CoR3!"}
+variable "zone" {default = "1"}
+variable "storage_mb" {default = "32768"}
+variable "sku_name" {default = "GP_Standard_D4s_v3"}
+variable "depends_on" {default = "azurerm_private_dns_zone_virtual_network_link.example"}

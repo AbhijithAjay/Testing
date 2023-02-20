@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_recovery_services_vault;
+depends on azurerm_backup_policy_vm;
+depends on azurerm_virtual_machine;

@@ -1,0 +1,10 @@
+variable "name" {default = "euclid_azurerm_spring_cloud_service"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "sku_name" {default = "S0"}
+variable "config_server_git_setting_uri" {default = "https://github.com/Azure-Samples/piggymetrics"}
+variable "config_server_git_setting_label" {default = "config"}
+variable "config_server_git_setting_search_paths" {default = ["dir1", "dir2"]}
+variable "trace_connection_string" {default = "azurerm_application_insights.example.connection_string"}
+variable "trace_sample_rate" {default = "10.0"}
+variable "tags_Env" {default = "staging"}

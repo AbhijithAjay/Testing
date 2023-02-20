@@ -1,0 +1,6 @@
+depends on azurerm_resource_group;
+depends on azurerm_web_pubsub;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_private_endpoint;
+depends on azurerm_web_pubsub_network_acl;

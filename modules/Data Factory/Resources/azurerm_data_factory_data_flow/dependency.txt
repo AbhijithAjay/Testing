@@ -1,0 +1,6 @@
+depends on azurerm_resource_group;
+depends on azurerm_storage_account;
+depends on azurerm_data_factory;
+depends on azurerm_data_factory_linked_custom_service;
+depends on azurerm_data_factory_dataset_json;
+depends on azurerm_data_factory_flowlet_data_flow

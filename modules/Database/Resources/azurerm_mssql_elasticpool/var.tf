@@ -1,0 +1,12 @@
+variable "name" {default = "euclid_azurerm_mssql_elasticpool"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "server_name" {default = "azurerm_sql_server.example.name"}
+variable "license_type" {default = "LicenseIncluded"}
+variable "max_size_gb" {default = "756"}
+variable "sku_name" {default = "BasicPool"}
+variable "sku_tier" {default = "Basic"}
+variable "sku_family" {default = "Gen4"}
+variable "sku_capacity" {default = "4"}
+variable "per_database_settings_min_capacity" {default = "0.25"}
+variable "per_database_settings_max_capacity" {default = "4"}

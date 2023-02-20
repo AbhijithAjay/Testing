@@ -1,0 +1,8 @@
+depends on azurerm_resource_group;
+depends on azurerm_network_watcher;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_network_interface;
+depends on azurerm_virtual_machine;
+depends on azurerm_virtual_machine_extension;
+depends on azurerm_log_analytics_workspace;

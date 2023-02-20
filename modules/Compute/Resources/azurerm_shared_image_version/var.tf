@@ -1,0 +1,9 @@
+variable "name" {default = "euclid_azurerm_shared_image_version"}
+variable "gallery_name" {default = "data.azurerm_shared_image.existing.gallery_name"}
+variable "image_name" {default = "data.azurerm_shared_image.existing.name"}
+variable "resource_group_name" {default = "data.azurerm_shared_image.existing.resource_group_name"}
+variable "location" {default = "data.azurerm_shared_image.existing.location"}
+variable "managed_image_id" {default = "data.azurerm_image.existing.id"}
+variable "target_region_name" {default = "data.azurerm_shared_image.existing.location"}
+variable "regional_replica_count" {default = "5"}
+variable "storage_account_type" {default = "Standard_LRS"}

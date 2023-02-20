@@ -1,0 +1,13 @@
+variable "name" {default = "euclid_azurerm_container_group"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "ip_address_type" {default = "Public"}
+variable "dns_name_label" {default = "aci-label"}
+variable "os_type" {default = "Linux"}
+variable "container_name" {default = "hello-world"}
+variable "container_image" {default = "mcr.microsoft.com/azuredocs/aci-helloworld:latest"}
+variable "container_cpu" {default = "0.5"}
+variable "container_memory" {default = "1.5"}
+variable "port" {default = "443"}
+variable "protocol" {default = "TCP"}
+variable "tags_environment" {default = "testing"}

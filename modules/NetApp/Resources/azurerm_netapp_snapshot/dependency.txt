@@ -1,0 +1,7 @@
+depends on azurerm_resource_group;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_netapp_account;
+depends on azurerm_netapp_pool;
+depends on azurerm_netapp_volume;
+depends on azurerm_netapp_snapshot;

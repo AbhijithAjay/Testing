@@ -1,0 +1,16 @@
+variable "name" {default = "euclid_azurerm_monitor_scheduled_query_rules_alert"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "action_group" {default = "[]"}
+variable "email_subject" {default = "Email Header"}
+variable "custom_webhook_payload" {default = "{}"}
+variable "data_source_id" {default = "azurerm_application_insights.example.id"}
+variable "description" {default = "Alert when total results cross threshold"}
+variable "enabled" {default = "true"}
+variable "query " {default = "<<-QUERY"}
+variable "severity" {default = "1"}
+variable "frequency" {default = "5"}
+variable "time_window" {default = "30"}
+variable "operator" {default = "GreaterThan"}
+variable "threshold" {default = "3"}
+variable "foo" {default = "bar"}

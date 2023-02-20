@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_logz_monitor;
+depends on azurerm_logz_sub_account;

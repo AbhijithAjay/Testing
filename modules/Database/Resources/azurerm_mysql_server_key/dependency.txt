@@ -1,0 +1,7 @@
+depends on azurerm_client_config;
+depends on azurerm_resource_group;
+depends on azurerm_key_vault;
+depends on azurerm_key_vault_access_policy;
+depends on azurerm_key_vault_access_policy;
+depends on azurerm_key_vault_key;
+depends on azurerm_mysql_server;

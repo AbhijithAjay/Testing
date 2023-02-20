@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_data_factory;
+depends on azurerm_data_factory_linked_service_sql_server;

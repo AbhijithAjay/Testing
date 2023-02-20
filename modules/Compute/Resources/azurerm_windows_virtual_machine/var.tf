@@ -1,0 +1,13 @@
+variable "name" {default = "euclid_azurerm_windows_virtual_machine"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "size" {default = "Standard_F2"}
+variable "admin_username" {default = "adminuser"}
+variable "admin_password" {default = "P@$$w0rd1234!"}
+variable "network_interface_ids" {default = "azurerm_network_interface.example.id"}
+variable "caching" {default = "ReadWrite"}
+variable "storage_account_type" {default = "Standard_LRS"}
+variable "publisher" {default = "MicrosoftWindowsServer"}
+variable "offer" {default = "WindowsServer"}
+variable "sku" {default = "2016-Datacenter"}
+variable "version" {default = "latest"}

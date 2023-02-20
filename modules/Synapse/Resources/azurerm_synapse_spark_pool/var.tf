@@ -1,0 +1,10 @@
+variable "name" {default = "euclid_azurerm_synapse_spark_pool"}
+variable "synapse_workspace_id" {default = "azurerm_synapse_workspace.example.id"}
+variable "node_size_family" {default = "MemoryOptimized"}
+variable "node_size" {default = "Small"}
+variable "cache_size" {default = "100"}
+variable "auto_scale_max_node_count" {default = "50"}
+variable "auto_scale_min_node_count" {default = "3"}
+variable "auto_pause_delay_in_minutes" {default = "15"}
+variable "filename" {default = "config.txt"}
+variable "tags_ENV" {default = "Production"}

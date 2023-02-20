@@ -1,0 +1,8 @@
+depends on azurerm_resource_group;
+depends on azurerm;
+depends on azurerm_client_config;
+depends on azurerm_subscription;
+depends on azurerm_blueprint_definition;
+depends on azurerm_blueprint_published_version;
+depends on azurerm_user_assigned_identity;
+depends on azurerm_role_assignment;

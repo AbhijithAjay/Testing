@@ -1,0 +1,17 @@
+variable "name" {default = "euclid_azurerm_data_factory_trigger_tumbling_window"}
+variable "data_factory_id" {default = "azurerm_data_factory.example.id"}
+variable "start_time" {default = "2022-09-21T00:00:00Z"}
+variable "end_time" {default = "2022-09-21T08:00:00Z"}
+variable "frequency" {default = "Minute"}
+variable "interval" {default = "15"}
+variable "delay" {default = "16:00:00"}
+variable "annotations" {default = ["example1", "example2", "example3"]}
+variable "description" {default = "example description"}
+variable "retry_count" {default = "1"}
+variable "retry_interval" {default = "30"}
+variable "pipeline_name" {default = "azurerm_data_factory_pipeline.example.name"}
+variable "pipeline_parameters_Env" {default = "Prod"}
+variable "trigger_dependency_size" {default = "24:00:00"}
+variable "trigger_dependency_offset" {default = "-24:00:00"}
+variable "foo" {default = "value1"}
+variable "bar" {default = "value2"}

@@ -1,0 +1,6 @@
+depends on azurerm;
+depends on azurerm_resource_group;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_private_dns_zone;
+depends on azurerm_private_dns_zone_virtual_network_link;

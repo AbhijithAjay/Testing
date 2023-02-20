@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_sql_managed_instance;

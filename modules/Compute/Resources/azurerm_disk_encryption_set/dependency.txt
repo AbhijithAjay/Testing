@@ -1,0 +1,5 @@
+depends on azurerm_client_config;
+depends on azurerm_key_vault;
+depends on azurerm_key_vault_key;
+depends on azurerm_key_vault_access_policy;
+depends on azurerm_role_assignment;

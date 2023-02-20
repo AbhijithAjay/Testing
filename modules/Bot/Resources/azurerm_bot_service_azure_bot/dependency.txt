@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_application_insights;
+depends on azurerm_application_insights_api_key;
+depends on azurerm_client_config;

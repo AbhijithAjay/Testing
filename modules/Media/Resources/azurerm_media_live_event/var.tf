@@ -1,0 +1,15 @@
+variable "name" {default = "euclid_azurerm_media_live_event"}
+variable "resource_group_name" {default="azurerm_resource_group.example.name"}
+variable "location" {default="azurerm_resource_group.example.location"}
+variable "media_services_account_name" {default="azurerm_media_services_account.example.name"}
+variable "description" {default="My Event Description"}
+variable "name_ip_access" {default="AllowAll"}
+variable "address" {default="0.0.0.0"}
+variable "subnet_prefix_length" {default="0"}
+variable "type" {default ="Standard"}
+variable "preset_name" {default ="Default720p"}
+variable "stretch_mode" {default ="AutoFit"}
+variable "key_frame_interval" {default ="PT2S"}
+variable "use_static_hostname" {default ="true"}
+variable "hostname_prefix" {default ="special-event"}
+variable "transcription_languages" {default =["en-US"]}

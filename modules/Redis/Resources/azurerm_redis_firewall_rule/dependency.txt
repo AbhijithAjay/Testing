@@ -1,0 +1,3 @@
+depends on random_id;
+depends on azurerm_resource_group;
+depends on azurerm_redis_cache;

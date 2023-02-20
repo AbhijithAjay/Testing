@@ -1,0 +1,2 @@
+depends on azurerm_subscription;
+depends on azurerm_policy_definition;

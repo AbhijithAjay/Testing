@@ -1,0 +1,6 @@
+depends on azurerm;
+depends on azurerm_resource_group;
+depends on azurerm_storage_account;
+depends on azurerm_storage_data_lake_gen2_filesystem;
+depends on azurerm_synapse_workspace;
+depends on azurerm_synapse_sql_pool;

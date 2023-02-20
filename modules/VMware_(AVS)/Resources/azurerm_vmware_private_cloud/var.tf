@@ -1,0 +1,9 @@
+variable "name" {default = "euclid_azurerm_vmware_private_cloud"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "sku_name" {default = "av36"}
+variable "management_cluster_size" {default = "3"}
+variable "network_subnet_cidr" {default = "192.168.48.0/22"}
+variable "internet_connection_enabled" {default = "false"}
+variable "nsxt_password" {default = "QazWsx13$Edc"}
+variable "vcenter_password" {default = "WsxEdc23$Rfv"}

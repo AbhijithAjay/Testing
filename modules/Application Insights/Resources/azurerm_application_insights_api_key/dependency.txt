@@ -1,0 +1,2 @@
+depends on azurerm_resource_group;
+azurerm_application_insights;

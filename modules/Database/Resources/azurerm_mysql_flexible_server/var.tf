@@ -1,0 +1,10 @@
+variable "name" {default = "euclid_azurerm_mysql_flexible_server"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "administrator_login" {default = "psqladmin"}
+variable "administrator_password" {default = "H@Sh1CoR3!"}
+variable "backup_retention_days" {default = "7"}
+variable "delegated_subnet_id" {default = "azurerm_subnet.example.id"}
+variable "private_dns_zone_id" {default = "azurerm_private_dns_zone.example.id"}
+variable "sku_name" {default = "GP_Standard_D2ds_v4"}
+variable "depends_on" {default = ["azurerm_private_dns_zone_virtual_network_link.example"]}

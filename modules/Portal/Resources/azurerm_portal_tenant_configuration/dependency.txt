@@ -1,0 +1,1 @@
+depends on azurerm_portal_tenant_configuration;

@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_public_ip_prefix;
+depends on azurerm_nat_gateway;

@@ -1,0 +1,2 @@
+depends on azurerm_resource_group;
+depends on azurerm_databox_edge_device;

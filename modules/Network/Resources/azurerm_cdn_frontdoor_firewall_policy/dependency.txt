@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_cdn_frontdoor_profile;
+depends on azurerm_cdn_frontdoor_firewall_policy;

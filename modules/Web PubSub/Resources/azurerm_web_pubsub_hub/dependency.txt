@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_user_assigned_identity;
+depends on azurerm_web_pubsub;
+depends on azurerm_web_pubsub_hub;

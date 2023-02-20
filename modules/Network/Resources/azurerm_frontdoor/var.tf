@@ -1,0 +1,19 @@
+variable "name " {default = "euclid_azurerm_frontdoor"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "routing_rule_name" {default = "exampleRoutingRule1"}
+variable "accepted_protocols" {default = "[Http, Https]"}
+variable " patterns_to_match" {default = "[/*]"}
+variable "frontend_endpoints" {default = "[exampleFrontendEndpoint1]"}
+variable "forwarding_protocol" {default = "MatchRequest"}
+variable "backend_pool_name" {default = "exampleBackendBing"}
+variable "backend_pool_load_balancing_name" {default = "exampleHealthProbeSetting1"}
+variable " backend_pool1_name" {default = "exampleBackendBing"}
+variable "host_header" {default = "www.bing.com"}
+variable "address" {default = "www.bing.com"}
+variable "http_port" {default = "80"}
+variable "https_port" {default = "443"}
+variable "load_balancing_name" {default = "exampleLoadBalancingSettings1"}
+variable "health_probe_name" {default = "exampleHealthProbeSetting1"}
+variable "frontend_endpoint_name" {default = "exampleFrontendEndpoint1"}
+variable " host_name" {default = "example-FrontDoor.azurefd.net"}
+

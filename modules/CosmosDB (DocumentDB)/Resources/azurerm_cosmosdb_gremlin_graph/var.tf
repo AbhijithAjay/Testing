@@ -1,0 +1,13 @@
+variable "name" {default = "euclid_azurerm_cosmosdb_gremlin_graph"}
+variable "resource_group_name" {default = "data.azurerm_cosmosdb_account.example.resource_group_name"}
+variable "account_name" {default = "data.azurerm_cosmosdb_account.example.name"}
+variable "database_name" {default = "azurerm_cosmosdb_gremlin_database.example.name"}
+variable "partition_key_path" {default = "/Example"}
+variable "throughput" {default = "400"}
+variable "index_policy_automatic" {default = true}
+variable "index_policy_indexing_mode" {default = "consistent"}
+variable "index_policy_included_paths" {default = "/*"}
+variable "index_policy_excluded_paths" {default = "/\"_etag\"/?"}
+variable "conflict_resolution_policy_mode" {default = "LastWriterWins"}
+variable "conflict_resolution_policy_conflict_resolution_path" {default = "/_ts"}
+variable "unique_key_paths" {default = ["/definition/id1", "/definition/id2"]}

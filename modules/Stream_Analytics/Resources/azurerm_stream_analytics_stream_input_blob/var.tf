@@ -1,0 +1,11 @@
+variable "name" {default = "euclid_azurerm_stream_analytics_stream_input_blob"}
+variable "stream_analytics_job_name" {default = "data.azurerm_stream_analytics_job.example.name"}
+variable "resource_group_name" {default = "data.azurerm_stream_analytics_job.example.resource_group_name"}
+variable "storage_account_name" {default = "azurerm_storage_account.example.name"}
+variable "storage_account_key" {default = "azurerm_storage_account.example.primary_access_key"}
+variable "storage_container_name" {default = "azurerm_storage_container.example.name"}
+variable "path_pattern" {default = "some-random-pattern"}
+variable "date_format" {default = "yyyy/MM/dd"}
+variable "time_format" {default = "HH"}
+variable "serialization_type" {default = "Json"}
+variable "serializationt_encoding" {default = "UTF8"}

@@ -1,0 +1,11 @@
+variable "name" {default = "euclid_azurerm_synapse_workspace"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "storage_data_lake_gen2_filesystem_id" {default = "azurerm_storage_data_lake_gen2_filesystem.example.id"}
+variable "sql_administrator_login" {default = "sqladminuser"}
+variable "sql_administrator_login_password" {default = "H@Sh1CoR3!"}
+variable "aad_admin_login" {default = "AzureAD Admin"}
+variable "aad_admin_object_id" {default = "00000000-0000-0000-0000-000000000000"}
+variable "aad_admin_tenant_id" {default = "00000000-0000-0000-0000-000000000000"}
+variable "identity_type" {default = "SystemAssigned"}
+variable "tags_Env" {default = "production"}

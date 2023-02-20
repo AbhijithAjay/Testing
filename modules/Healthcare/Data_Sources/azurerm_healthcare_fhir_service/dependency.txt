@@ -1,0 +1,2 @@
+depends on azurerm_healthcare_fhir_service;
+depends on healthcare_fhir_service_id;

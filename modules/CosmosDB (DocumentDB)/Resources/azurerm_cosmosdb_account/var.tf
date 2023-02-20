@@ -1,0 +1,17 @@
+variable "name" {default = "euclid_azurerm_cosmosdb_account"}
+variable "location" {default = "azurerm_resource_group.example.location"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "offer_type " {default = "Standard"}
+variable "kind" {default = "MongoDB"}
+variable "enable_automatic_failover" {default = true}
+variable "capabilities_name" {default = "EnableAggregationPipeline"}
+variable "capabilities_name1" {default = "mongoEnableDocLevelTTL"}
+variable "capabilities_name2" {default = "MongoDBv3.4"}
+variable "capabilities_name3" {default = "EnableMongo"}
+variable "consistency_level" {default = "BoundedStaleness"}
+variable "max_interval_in_seconds" {default = "300"}
+variable "max_staleness_prefix" {default = "100000"}
+variable "geo_location_location" {default = "eastus"}
+variable "geo_location_failover_priority" {default = "1"}
+variable "geo_location_location1" {default = "eastus"}
+variable "geo_location_failover_priority1" {default = "0"}

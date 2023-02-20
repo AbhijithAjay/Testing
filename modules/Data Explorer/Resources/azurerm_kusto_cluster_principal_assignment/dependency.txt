@@ -1,0 +1,2 @@
+depends on azurerm_client_config;
+depends on azurerm_kusto_cluster;

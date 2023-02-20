@@ -1,0 +1,9 @@
+depends on azurerm_resource_group;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_hpc_cache;
+depends on azurerm_storage_account;
+depends on azurerm_storage_container;
+depends on azurerm_role_assignment;
+depends on azurerm_role_assignment;
+

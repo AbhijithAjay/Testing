@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_firewall_policy;
+depends on azurerm_firewall_policy_rule_collection_group;
+

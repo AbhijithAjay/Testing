@@ -1,0 +1,10 @@
+variable "name" {default = "euclid_azurerm_hpc_cache_nfs_target"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "cache_name" {default = "azurerm_hpc_cache.example.name"}
+variable "target_host_name" {default = "azurerm_linux_virtual_machine.example.private_ip_address"}
+variable "usage_model" {default = "READ_HEAVY_INFREQ"}
+variable "namespace_junction_namespace_path" {default = "/nfs/a1"}
+variable "namespace_junction_nfs_export" {default = "/export/a"}
+variable "namespace_junction_target_path" {default = "1"}
+variable "namespace_junction_namespace_path" {default = "/nfs/b"}
+variable "namespace_junction_nfs_export" {default = "/export/b"}

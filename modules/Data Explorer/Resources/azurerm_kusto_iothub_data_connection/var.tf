@@ -1,0 +1,12 @@
+variable "name" {default = "euclid_azurerm_kusto_iothub_data_connection"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "location " {default = "azurerm_resource_group.example.location"}
+variable "cluster_name" {default = "azurerm_kusto_cluster.example.name"}
+variable "database_name" {default = "azurerm_kusto_database.example.name"}
+variable "iothub_id" {default = "azurerm_iothub.example.id"}
+variable "consumer_group" {default = "azurerm_iothub_consumer_group.example.name"}
+variable "shared_access_policy_name" {default = "azurerm_iothub_shared_access_policy.example.name"}
+variable "event_system_properties" {default = ["message-id", "sequence-number", "to"]}
+variable "table_name" {default = "my-table"}
+variable "mapping_rule_name" {default = "my-table-mapping"}
+variable "data_format" {default = "JSON"}

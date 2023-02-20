@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_sql_managed_instance;
+depends on azurerm_client_config;

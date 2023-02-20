@@ -1,0 +1,6 @@
+depends on azurerm_resource_group;
+depends on azurerm_windows_web_app;
+depends on azurerm_relay_hybrid_connection;
+depends on azurerm_relay_namespace;
+depends on azurerm_service_plan;
+depends on azurerm;

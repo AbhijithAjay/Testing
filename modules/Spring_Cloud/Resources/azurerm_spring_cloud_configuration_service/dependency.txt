@@ -1,0 +1,3 @@
+depends on azurerm;
+depends on azurerm_resource_group;
+depends on azurerm_spring_cloud_service;

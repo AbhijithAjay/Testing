@@ -1,0 +1,11 @@
+variable "name" {default = "euclid_azurerm_network_security_rule"}
+variable "priority" {default = "100"}
+variable "direction" {default = "Outbound"}
+variable "access" {default = "Allow"}
+variable "protocol" {default = "Tcp"}
+variable "source_port_range" {default = "*"}
+variable "destination_port_range" {default = "*"}
+variable "source_address_prefix" {default = "*"}
+variable "destination_address_prefix" {default = "*"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "network_security_group_name" {default = "azurerm_network_security_group.example.name"}

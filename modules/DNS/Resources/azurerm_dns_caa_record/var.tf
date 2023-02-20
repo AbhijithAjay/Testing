@@ -1,0 +1,17 @@
+variable "name" {default = "euclid_azurerm_dns_caa_record"}
+variable "zone_name" {default = "azurerm_dns_zone.example.name"}
+variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
+variable "ttl" {default = "300"}
+variable "record_flags" {default = "0"}
+variable "record_tag" {default = "issue"}
+variable "record_value" {default = "example.com"}
+variable "record_flags1" {default = "0"}
+variable "record_tag1" {default = "issue"}
+variable "record_value1" {default = "example.net"}
+variable "record_flags2" {default = "0"}
+variable "record_tag2" {default = "issuewild"}
+variable "record_value2" {default = ";"}
+variable "record_flags3" {default = "0"}
+variable "record_tag3" {default = "iodef"}
+variable "record_value3" {default = "mailto:terraform@nonexisting.tld"}
+variable "tags_Environment" {default = "Production"}

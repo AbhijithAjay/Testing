@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_app_service;
+depends on azurerm_app_service_plan;

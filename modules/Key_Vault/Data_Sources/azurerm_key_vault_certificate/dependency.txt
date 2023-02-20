@@ -1,0 +1,2 @@
+depends on azurerm_key_vault;
+depends on azurerm_key_vault_certificate;

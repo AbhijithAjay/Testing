@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_data_factory;
+depends on azurerm_data_factory_pipeline;
+depends on azurerm_storage_account;

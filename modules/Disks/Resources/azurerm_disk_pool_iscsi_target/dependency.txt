@@ -1,0 +1,7 @@
+depends on azurerm_resource_group;
+depends on azurerm_virtual_network;
+depends on azurerm_subnet;
+depends on azurerm_disk_pool;
+depends on azurerm_managed_disk;
+depends on azuread_service_principal;;
+depends on azurerm_role_assignment;

@@ -1,0 +1,4 @@
+depends on azurerm_client_config;
+depends on azurerm_key_vault;
+depends on azurerm_web_pubsub;
+depends on azurerm_web_pubsub_shared_private_link_resource;

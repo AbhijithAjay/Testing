@@ -1,0 +1,1 @@
+depends on azurerm_elastic_cloud_elasticsearch;

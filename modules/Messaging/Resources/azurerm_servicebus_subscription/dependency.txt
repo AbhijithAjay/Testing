@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_servicebus_namespace;
+depends on azurerm_servicebus_topic;

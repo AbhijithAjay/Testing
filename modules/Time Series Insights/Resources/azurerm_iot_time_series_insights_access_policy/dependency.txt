@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_iot_time_series_insights_standard_environment;
+depends on azurerm_iot_time_series_insights_access_policy;
+

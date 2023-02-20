@@ -1,0 +1,4 @@
+depends on azurerm_resource_group;
+depends on azurerm_api_management;
+depends on azuread_application;
+depends on azuread_application_password;

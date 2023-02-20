@@ -1,0 +1,3 @@
+depends on azurerm_resource_group;
+depends on azurerm_netapp_account;
+depends on azurerm_netapp_snapshot_policy;

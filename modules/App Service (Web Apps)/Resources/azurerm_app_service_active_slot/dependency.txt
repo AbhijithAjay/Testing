@@ -1,0 +1,5 @@
+depends on azurerm_resource_group;
+depends on random_id;
+depends on azurerm_app_service_plan;
+depends on azurerm_app_service;
+depends on azurerm_app_service_slot;
