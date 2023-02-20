@@ -1,2 +1,0 @@
-depends on azurerm_log_analytics_workspace;
-depends on log_analytics_workspace_id;

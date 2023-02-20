@@ -1,5 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_virtual_network;
-depends on azurerm_subnet;
-depends on azurerm_linux_virtual_machine_scale_set;
-depends on azurerm_security_center_assessment_policy;

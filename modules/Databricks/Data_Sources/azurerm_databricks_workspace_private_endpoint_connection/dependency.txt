@@ -1,2 +1,0 @@
-depends on azurerm_databricks_workspace_private_endpoint_connection;
-depends on databricks_workspace_private_endpoint_connection_status;

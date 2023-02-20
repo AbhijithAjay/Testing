@@ -1,5 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_storage_account";
-depends on azurerm_user_assigned_identity;
-depends on azurerm_role_assignment;
-depends on azurerm_video_analyzer;

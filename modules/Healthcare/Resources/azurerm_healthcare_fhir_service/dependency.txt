@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_client_config;
-depends on azurerm_healthcare_workspace;
-depends on azurerm_healthcare_fhir_service;

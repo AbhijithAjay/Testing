@@ -1,6 +1,0 @@
-depepnds on azurerm;
-depepnds on azurerm_resource_group;
-depepnds on azurerm_data_share_account;
-depepnds on azurerm_data_share;
-depepnds on azurerm_kusto_cluster;
-depepnds on azurerm_role_assignment;

@@ -1,2 +1,0 @@
-depends on azurerm_role_definition;
-depends on azurerm_lighthouse_definition;

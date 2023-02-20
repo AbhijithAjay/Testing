@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_dev_test_lab;
-depends on azurerm_dev_test_virtual_network;

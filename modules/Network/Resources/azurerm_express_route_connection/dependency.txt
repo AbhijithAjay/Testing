@@ -1,8 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_virtual_wan;
-depends on azurerm_virtual_hub;
-depends on azurerm_express_route_gateway;
-depends on azurerm_express_route_port;
-depends on azurerm_express_route_circuit;
-depends on azurerm_express_route_circuit_peering;
-depends on azurerm_express_route_connection;

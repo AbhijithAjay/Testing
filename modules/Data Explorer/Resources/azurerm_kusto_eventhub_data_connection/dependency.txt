@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_kusto_cluster;
-depends on azurerm_kusto_database;
-depends on azurerm_eventhub_namespace;
-depends on azurerm_eventhub;
-depends on azurerm_eventhub_consumer_group;

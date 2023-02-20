@@ -1,1 +1,0 @@
-depends on azurerm_iothub_shared_access_policy;

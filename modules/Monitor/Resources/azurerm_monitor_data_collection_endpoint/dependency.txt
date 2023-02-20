@@ -1,2 +1,0 @@
-depends on azurerm;
-depends on azurerm_resource_group;

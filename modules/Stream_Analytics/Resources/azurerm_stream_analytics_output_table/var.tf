@@ -1,9 +1,0 @@
-variable "name" {default = "euclid_azurerm_stream_analytics_output_table"}
-variable "stream_analytics_job_name" {default = "data.azurerm_stream_analytics_job.example.name"}
-variable "resource_group_name" {default = "data.azurerm_stream_analytics_job.example.resource_group_name"}
-variable "storage_account_name" {default = "azurerm_storage_account.example.name"}
-variable "storage_account_key" {default = "azurerm_storage_account.example.primary_access_key"}
-variable "table" {default = "azurerm_storage_table.example.name"}
-variable "partition_key" {default = "foo"}
-variable "row_key" {default = "bar"}
-variable "batch_size" {default = "100"}

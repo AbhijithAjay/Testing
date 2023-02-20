@@ -1,9 +1,0 @@
-depends on azurerm_client_config;
-depends on azurerm_postgresql_server;
-depends on azurerm_postgresql_firewall_rule;
-depends on azurerm_postgresql_database;
-depends on azurerm_data_protection_backup_vault;
-depends on azurerm_key_vault;
-depends on azurerm_key_vault_secret;
-depends on azurerm_data_protection_backup_policy_postgresql;
-depends on azurerm_role_assignment;

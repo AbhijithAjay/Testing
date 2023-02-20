@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_storage_account;
-depends on azurerm_cdn_profile;
-depends on azurerm_cdn_endpoint;
-depends on azurerm_dns_zone;
-depends on azurerm_dns_cname_record;

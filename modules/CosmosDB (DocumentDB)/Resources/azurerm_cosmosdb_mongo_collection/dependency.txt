@@ -1,2 +1,0 @@
-depends on azurerm_cosmosdb_account;
-depends on azurerm_cosmosdb_mongo_database;

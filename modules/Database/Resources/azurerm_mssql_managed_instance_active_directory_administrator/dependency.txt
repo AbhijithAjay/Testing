@@ -1,8 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_client_config;
-depends on azurerm_virtual_network;
-depends on azurerm_subnet;
-depends on azurerm_mssql_managed_instance;
-depends on azuread_directory_role;
-depends on azuread_directory_role_member;
-depends on azuread_user;

@@ -1,4 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_digital_twins_instance;
-depends on azurerm_eventgrid_topic;
-depends on azurerm_digital_twins_endpoint_eventgrid;

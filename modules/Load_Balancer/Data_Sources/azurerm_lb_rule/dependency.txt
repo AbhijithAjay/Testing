@@ -1,3 +1,0 @@
-depends on azurerm_lb;
-depends on azurerm_lb_rule;
-depends on lb_rule_id;

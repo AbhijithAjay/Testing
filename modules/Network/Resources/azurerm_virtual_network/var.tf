@@ -1,9 +1,0 @@
-variable "name" {default = "euclid_azurerm_virtual_network"}
-variable "location" {default = "azurerm_resource_group.example.location"}
-variable "resource_group_name" {default = "azurerm_resource_group.example.name"}
-variable "address_space" {default = ["10.0.0.0/16"]}
-variable "dns_servers" {default = ["10.0.0.4", "10.0.0.5"]}
-variable "subnet_name" {default = "subnet2"}
-variable "subnet_address_prefix" {default = "10.0.2.0/24"}
-variable "subnet_security_group" {default = "azurerm_network_security_group.example.id"}
-variable "tags_environment" {default = "Production"}

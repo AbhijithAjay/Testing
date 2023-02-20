@@ -1,6 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_virtual_network;
-depends on azurerm_subnet;
-depends on azurerm_network_interface;
-depends on azurerm_linux_virtual_machine;
-depends on azurerm_dev_test_global_vm_shutdown_schedule;

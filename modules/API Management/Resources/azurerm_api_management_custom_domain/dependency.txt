@@ -1,5 +1,0 @@
-depends on azurerm;
-depends on azurerm_resource_group;
-depends on azurerm_key_vault;
-depends on azurerm_api_management;
-depends on azurerm_key_vault_certificate;

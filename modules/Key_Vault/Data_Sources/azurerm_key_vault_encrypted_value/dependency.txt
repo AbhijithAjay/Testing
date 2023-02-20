@@ -1,3 +1,0 @@
-depends on azurerm_key_vault;
-depends on azurerm_key_vault_key;
-depends on azurerm_key_vault_encrypted_value;

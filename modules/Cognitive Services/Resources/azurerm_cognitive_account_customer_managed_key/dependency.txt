@@ -1,5 +1,0 @@
-depends on azurerm_client_config;
-depends on azurerm_user_assigned_identity;
-depends on azurerm_cognitive_account;
-depends on azurerm_key_vault;
-depends on azurerm_key_vault_key;

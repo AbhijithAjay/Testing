@@ -1,3 +1,0 @@
-depends on azurerm_subscription;
-depends on azurerm_resource_group;
-depends on azurerm_monitor_action_group;

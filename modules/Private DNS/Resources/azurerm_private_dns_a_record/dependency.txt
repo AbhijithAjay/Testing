@@ -1,3 +1,0 @@
-depends on azurerm_resource_group;
-depends on azurerm_private_dns_zone;
-depends on azurerm_private_dns_a_record;
